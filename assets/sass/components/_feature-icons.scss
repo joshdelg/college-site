@@ -19,7 +19,7 @@
 
 		li {
 			margin: (_size(element-margin) * 1.25) 0 0 0;
-			padding: 0.5rem 0 0 4.5rem;
+			padding: 0.5rem 1rem;
 			position: relative;
 			width: 50%;
 
@@ -32,12 +32,13 @@
 				display: block;
 				font-size: 1.25rem;
 				height: 3.25rem;
-				left: 0;
+				// left: 0;
 				line-height: 3.25rem;
-				position: absolute;
+				position: relative;
 				text-align: center;
-				top: 0;
+				// top: 0;
 				width: 3.25rem;
+				margin: 0.5rem 0;
 			}
 
 			&:nth-child(1),
