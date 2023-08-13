@@ -42,11 +42,11 @@
 	$palette: (
 		bg:						#dddddd,
 		fg:						#000000,
-		fg-bold:				#ffffff,
+		fg-bold:				#dddddd,
 		fg-light:				rgba(0,0,0,0.25),
-		border:					rgba(0,118,98, 0.25),
-		border-bg:				rgba(0,118,98, 0.1),
-		accent:					#8B1515,
+		border:					rgba(0,118,98, 0.75),
+		border-bg:				rgba(0,118,98, 0.5),
+		accent:					desaturate(#8B1515, 15),
 		accent-border:			desaturate(darken(#8B1515, 8), 30),
 		accent-alt:				desaturate(darken(#8B1515, 10), 20),
 		accent-bg:				transparentize(#8B1515, 0.75)
