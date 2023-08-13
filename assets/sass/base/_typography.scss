@@ -40,6 +40,14 @@
 		line-height: 2;
 	}
 
+	div.content {
+		color: _palette(fg);
+
+		strong {
+			color: _palette(fg);
+		}
+	}
+
 	a {
 		@include vendor('transition', 'border-bottom-color #{_duration(transition)} ease-in-out');
 		text-decoration: none;
