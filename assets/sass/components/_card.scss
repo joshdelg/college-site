@@ -1,0 +1,27 @@
+div.card {
+    background-color: lighten(_palette(bg), 2);
+    padding: 1rem;
+    border-radius: _size(border-radius);
+    box-shadow: 0.25rem 0.25rem 0.25rem darken(_palette(bg), 5);
+
+    h2.price {
+        font-size: 2.5rem;
+        text-align: center;
+        color: _palette(border-bg);
+    }
+
+    h3 {
+        color: _palette(fg);
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        color: _palette(fg-light);
+        text-align: center;
+        font-size: 1rem;
+        font-style: italic;
+        letter-spacing: normal;
+        text-transform: none;
+    }
+}
