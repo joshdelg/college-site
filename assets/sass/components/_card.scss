@@ -1,27 +1,51 @@
 div.card {
-    background-color: lighten(_palette(bg), 2);
-    padding: 1rem;
+    background-color: lighten(_palette(bg), 5);
+    margin: 4rem 0;
     border-radius: _size(border-radius);
     box-shadow: 0.25rem 0.25rem 0.25rem darken(_palette(bg), 5);
+    transition: transform 0.25s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 
     h2.price {
-        font-size: 2.5rem;
+        border-top-left-radius: _size(border-radius);
+        border-top-right-radius: _size(border-radius);
+        font-size: 1.75rem;
         text-align: center;
-        color: _palette(border-bg);
+        color: _palette(bg);
+        background-color: _palette(border-bg);
+        margin: 0.5rem 0;
     }
 
-    h3 {
-        color: _palette(fg);
-        text-align: center;
-        font-size: 1.5rem;
+    .card-content {
+        padding: 1rem;
+
+        h3 {
+            color: _palette(fg);
+            text-align: center;
+            font-size: 1.25rem;
+            margin: 0.5rem;
+        }
+    
+        h4 {
+            color: _palette(fg-light);
+            text-align: center;
+            font-size: 1rem;
+            font-style: italic;
+            letter-spacing: normal;
+            text-transform: none;
+        }
     }
 
-    h4 {
-        color: _palette(fg-light);
+    h2.bottom-banner {
+        border-bottom-left-radius: _size(border-radius);
+        border-bottom-right-radius: _size(border-radius);
+        font-size: 1.75rem;
         text-align: center;
-        font-size: 1rem;
-        font-style: italic;
-        letter-spacing: normal;
-        text-transform: none;
+        color: _palette(bg);
+        background-color: _palette(accent);
+        margin: 0.5rem 0;
     }
 }

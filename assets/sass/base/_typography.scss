@@ -60,6 +60,10 @@
 		}
 	}
 
+	a.green {
+		color: _palette(border-bg);
+	}
+
 	strong, b {
 		font-weight: _font(weight-bold);
 		color: _palette(fg-bold);

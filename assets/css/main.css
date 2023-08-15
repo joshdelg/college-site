@@ -171,6 +171,10 @@ a:hover {
   border-bottom-color: transparent;
 }
 
+a.green {
+  color: rgba(0, 118, 98, 0.75);
+}
+
 strong, b {
   font-weight: 600;
   color: #dddddd;
@@ -1465,7 +1469,7 @@ button,
   background-color: transparent;
   border-radius: 0.325rem;
   border: 0;
-  box-shadow: inset 0 0 0 2px rgba(0, 118, 98, 0.5);
+  box-shadow: inset 0 0 0 2px #dddddd;
   color: #dddddd !important;
   cursor: pointer;
   display: inline-block;
@@ -1486,8 +1490,8 @@ input[type=reset]:hover,
 input[type=button]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 2px #541919;
-  color: #541919 !important;
+  box-shadow: inset 0 0 0 2px rgba(0, 118, 98, 0.75);
+  color: rgba(0, 118, 98, 0.75) !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
@@ -2627,28 +2631,49 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 
 div.card {
-  background-color: #e2e2e2;
-  padding: 1rem;
+  background-color: #eaeaea;
+  margin: 4rem 0;
   border-radius: 0.325rem;
   box-shadow: 0.25rem 0.25rem 0.25rem #d0d0d0;
+  transition: transform 0.25s;
+}
+div.card:hover {
+  transform: scale(1.05);
 }
 div.card h2.price {
-  font-size: 2.5rem;
+  border-top-left-radius: 0.325rem;
+  border-top-right-radius: 0.325rem;
+  font-size: 1.75rem;
   text-align: center;
-  color: rgba(0, 118, 98, 0.75);
+  color: #dddddd;
+  background-color: rgba(0, 118, 98, 0.75);
+  margin: 0.5rem 0;
 }
-div.card h3 {
+div.card .card-content {
+  padding: 1rem;
+}
+div.card .card-content h3 {
   color: #000000;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  margin: 0.5rem;
 }
-div.card h4 {
+div.card .card-content h4 {
   color: rgba(0, 0, 0, 0.25);
   text-align: center;
   font-size: 1rem;
   font-style: italic;
   letter-spacing: normal;
   text-transform: none;
+}
+div.card h2.bottom-banner {
+  border-bottom-left-radius: 0.325rem;
+  border-bottom-right-radius: 0.325rem;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #dddddd;
+  background-color: #7f2121;
+  margin: 0.5rem 0;
 }
 
 /* Wrapper */
