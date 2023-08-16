@@ -3009,6 +3009,9 @@ div.card h2.bottom-banner {
   #wrapper > section > .content > section:last-child {
     margin-bottom: 0;
   }
+  #wrapper > section > footer {
+    background-color: #7f2121;
+  }
   #wrapper > section > footer > :last-child {
     margin-bottom: 0;
   }
@@ -3019,15 +3022,12 @@ div.card h2.bottom-banner {
     margin-bottom: 0;
   }
   #wrapper > section.intro > header ul.actions {
-    display: none;
+    margin: auto;
   }
   #wrapper > section.intro > header > * {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-  }
-  #wrapper > section.intro > header > ul.actions {
-    margin-left: -1rem;
   }
   #wrapper > section.intro > header:before {
     margin-left: 0;
@@ -3055,13 +3055,13 @@ div.card h2.bottom-banner {
     margin: 4rem 0;
   }
   #wrapper > section > footer {
-    padding: 0 4rem 4rem 4rem;
+    padding: 4rem 4rem 4rem 4rem;
   }
   #wrapper > section.intro > header {
     padding: 8rem 4rem 5rem 4rem;
   }
   #wrapper .copyright {
-    padding: 0 4rem 4rem 4rem;
+    padding: 4rem 4rem 4rem 4rem;
   }
 }
 @media screen and (max-width: 736px) {
@@ -3081,13 +3081,13 @@ div.card h2.bottom-banner {
     margin: 3rem 0;
   }
   #wrapper > section > footer {
-    padding: 0 2rem 3rem 2rem;
+    padding: 2rem 2rem 3rem 2rem;
   }
   #wrapper > section.intro > header {
     padding: 5.5rem 2rem 2.5rem 2rem;
   }
   #wrapper .copyright {
-    padding: 0 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
 }
 @media screen and (max-width: 360px) {
@@ -3107,13 +3107,13 @@ div.card h2.bottom-banner {
     margin: 2.25rem 0;
   }
   #wrapper > section > footer {
-    padding: 0 1.5rem 2.25rem 1.5rem;
+    padding: 1.5rem 1.5rem 2.25rem 1.5rem;
   }
   #wrapper > section.intro > header {
     padding: 4.875rem 1.5rem 1.875rem 1.5rem;
   }
   #wrapper .copyright {
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
 }
 
