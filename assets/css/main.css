@@ -97,7 +97,7 @@ html {
 }
 
 body {
-  background: #dddddd;
+  background: #eeeeee;
   overflow-x: hidden;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -137,7 +137,7 @@ html {
 }
 
 body {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   color: #000000;
 }
 
@@ -1490,8 +1490,9 @@ input[type=reset]:hover,
 input[type=button]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 2px rgba(0, 118, 98, 0.75);
-  color: rgba(0, 118, 98, 0.75) !important;
+  box-shadow: inset 0 0 0 2px #dddddd;
+  color: #7f2121 !important;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 input[type=submit]:active,
 input[type=reset]:active,
@@ -1744,7 +1745,7 @@ select {
   text-overflow: ellipsis;
 }
 select option {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   color: #000000;
 }
 select:focus::-ms-value {
@@ -1819,7 +1820,7 @@ input[type=radio]:checked + label:before {
   content: "\f00c";
   background-color: #7f2121;
   border-color: #7f2121;
-  color: #dddddd;
+  color: #eeeeee;
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
@@ -2441,7 +2442,7 @@ a.arrow:before {
   -ms-transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
   transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: rgba(221, 221, 221, 0.875);
+  background-color: rgba(238, 238, 238, 0.875);
   height: 100%;
   left: 0;
   opacity: 0;
@@ -2631,10 +2632,10 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 
 div.card {
-  background-color: #eaeaea;
+  background-color: #fbfbfb;
   margin: 4rem 0;
   border-radius: 0.325rem;
-  box-shadow: 0.25rem 0.25rem 0.25rem #d0d0d0;
+  box-shadow: 0.25rem 0.25rem 0.25rem #e1e1e1;
   transition: transform 0.25s;
 }
 div.card:hover {
@@ -2645,7 +2646,7 @@ div.card h2.price {
   border-top-right-radius: 0.325rem;
   font-size: 1.75rem;
   text-align: center;
-  color: #dddddd;
+  color: #eeeeee;
   background-color: rgba(0, 118, 98, 0.75);
   margin: 0.5rem 0;
 }
@@ -2671,7 +2672,7 @@ div.card h2.bottom-banner {
   border-bottom-right-radius: 0.325rem;
   font-size: 1.75rem;
   text-align: center;
-  color: #dddddd;
+  color: #eeeeee;
   background-color: #7f2121;
   margin: 0.5rem 0;
 }
